@@ -1,0 +1,1109 @@
+[2026-09-09T15:46:52.337+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:46:52.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:46:52.368+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:46:52.423+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:46:52.674+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.673+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:student_performance_pipeline
+[2026-09-09T15:46:52.691+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.691+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:student_performance_pipeline
+[2026-09-09T15:46:52.703+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.702+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:student_performance_pipeline
+[2026-09-09T15:46:52.721+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.720+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:student_performance_pipeline
+[2026-09-09T15:46:52.733+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.732+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:student_performance_pipeline
+[2026-09-09T15:46:52.746+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.746+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:student_performance_pipeline
+[2026-09-09T15:46:52.762+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.762+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:student_performance_pipeline
+[2026-09-09T15:46:52.763+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:46:52.788+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.788+0000] {dag.py:3262} INFO - Creating ORM DAG for student_performance_pipeline
+[2026-09-09T15:46:52.809+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:46:52.808+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:46:52.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.527 seconds
+[2026-09-09T15:47:23.814+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:47:23.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:47:23.995+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:47:23.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:47:24.325+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:47:24.718+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:47:24.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:47:24.987+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:47:24.984+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:47:25.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 1.720 seconds
+[2026-09-09T15:47:55.547+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:47:55.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:47:55.560+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:47:55.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:47:55.600+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:47:55.677+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:47:55.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:47:55.750+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:47:55.749+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:47:55.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.275 seconds
+[2026-09-09T15:48:26.823+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:48:26.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:48:26.835+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:48:26.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:48:26.858+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:48:26.969+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:48:26.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:48:27.004+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:48:27.004+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:48:27.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.269 seconds
+[2026-09-09T15:48:57.956+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:48:57.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:48:57.961+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:48:57.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:48:57.988+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:48:58.058+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:48:58.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:48:58.166+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:48:58.166+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:48:58.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.257 seconds
+[2026-09-09T15:49:28.632+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:49:28.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:49:28.649+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:49:28.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:49:28.727+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:49:28.881+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:49:28.881+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:49:28.963+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:49:28.963+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:49:29.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.412 seconds
+[2026-09-09T15:49:59.418+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:49:59.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:49:59.436+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:49:59.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:49:59.481+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:49:59.624+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:49:59.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:49:59.672+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:49:59.672+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T15:49:59.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.338 seconds
+[2026-09-09T15:50:30.301+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:50:30.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:50:30.318+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:50:30.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:50:30.400+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:50:30.474+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:50:30.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:50:30.599+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:50:30.599+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:50:30.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.425 seconds
+[2026-09-09T15:51:01.565+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:51:01.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:51:01.568+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:51:01.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:51:01.590+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:51:01.614+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:51:01.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:51:01.632+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:51:01.632+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:51:01.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.102 seconds
+[2026-09-09T15:51:31.813+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:51:31.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:51:31.819+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:51:31.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:51:31.846+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:51:31.873+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:51:31.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:51:31.898+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:51:31.898+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:51:31.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.113 seconds
+[2026-09-09T15:52:02.091+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:52:02.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:52:02.095+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:52:02.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:52:02.114+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:52:02.135+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:52:02.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:52:02.158+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:52:02.157+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:52:02.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.097 seconds
+[2026-09-09T15:52:32.353+0000] {processor.py:186} INFO - Started process (PID=135) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:52:32.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:52:32.357+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:52:32.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:52:32.397+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:52:32.465+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:52:32.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:52:32.503+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:52:32.503+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:52:32.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.185 seconds
+[2026-09-09T15:53:03.605+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:53:03.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:53:03.610+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:53:03.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:53:03.630+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:53:03.650+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:53:03.649+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:53:03.671+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:53:03.670+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:53:03.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.108 seconds
+[2026-09-09T15:53:34.555+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:53:34.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:53:34.571+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:53:34.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:53:34.608+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:53:34.628+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:53:34.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:53:34.659+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:53:34.658+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:53:34.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.144 seconds
+[2026-09-09T15:54:04.842+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:54:04.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:54:04.851+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:54:04.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:54:04.876+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:54:04.899+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:54:04.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:54:04.922+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:54:04.922+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:54:04.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.108 seconds
+[2026-09-09T15:54:35.125+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:54:35.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:54:35.129+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:54:35.128+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:54:35.150+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:54:35.168+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:54:35.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:54:35.189+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:54:35.189+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:54:35.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.089 seconds
+[2026-09-09T15:55:05.448+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:55:05.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:55:05.481+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:55:05.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:55:05.570+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:55:05.695+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:55:05.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:55:05.748+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:55:05.747+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:55:05.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.389 seconds
+[2026-09-09T15:55:35.989+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:55:35.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:55:36.003+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:55:36.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:55:36.025+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:55:36.067+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:55:36.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:55:36.090+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:55:36.090+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:55:36.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.127 seconds
+[2026-09-09T15:56:06.300+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:56:06.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:56:06.318+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:56:06.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:56:06.363+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:56:06.412+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:56:06.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:56:06.436+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:56:06.436+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:56:06.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.187 seconds
+[2026-09-09T15:56:36.661+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:56:36.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:56:36.667+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:56:36.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:56:36.692+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:56:36.715+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:56:36.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:56:36.744+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:56:36.743+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:56:36.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.120 seconds
+[2026-09-09T15:57:07.029+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:57:07.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:57:07.057+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:57:07.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:57:07.160+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:57:07.267+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:57:07.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:57:07.325+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:57:07.324+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:57:07.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.382 seconds
+[2026-09-09T15:57:37.729+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:57:37.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:57:37.743+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:57:37.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:57:37.856+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:57:38.196+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:57:38.195+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:57:38.316+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:57:38.315+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:57:38.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.696 seconds
+[2026-09-09T15:58:08.596+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:58:08.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:58:08.633+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:58:08.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:58:08.698+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:58:08.794+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:58:08.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:58:08.857+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:58:08.856+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:58:08.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.341 seconds
+[2026-09-09T15:58:39.086+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:58:39.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:58:39.097+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:58:39.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:58:39.153+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:58:39.222+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:58:39.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:58:39.275+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:58:39.274+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:58:39.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.267 seconds
+[2026-09-09T15:59:09.462+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:59:09.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:59:09.467+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:59:09.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:59:09.488+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:59:09.514+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:59:09.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:59:09.549+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:59:09.548+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:59:09.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.121 seconds
+[2026-09-09T15:59:39.789+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:59:39.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T15:59:39.816+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:59:39.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:59:39.872+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T15:59:39.943+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:59:39.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T15:59:39.971+0000] {logging_mixin.py:190} INFO - [2026-09-09T15:59:39.970+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T15:59:40.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.282 seconds
+[2026-09-09T16:00:10.329+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:00:10.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:00:10.357+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:00:10.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:00:10.430+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:00:10.568+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:00:10.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:00:10.631+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:00:10.630+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:00:10.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.404 seconds
+[2026-09-09T16:00:40.905+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:00:40.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:00:40.929+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:00:40.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:00:41.009+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:00:41.108+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:00:41.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:00:41.179+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:00:41.178+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:00:41.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.362 seconds
+[2026-09-09T16:01:11.422+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:01:11.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:01:11.437+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:01:11.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:01:11.481+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:01:11.542+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:01:11.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:01:11.623+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:01:11.623+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:01:11.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.317 seconds
+[2026-09-09T16:01:41.885+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:01:41.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:01:41.890+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:01:41.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:01:41.916+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:01:41.942+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:01:41.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:01:41.963+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:01:41.963+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:01:41.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.118 seconds
+[2026-09-09T16:02:12.195+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:02:12.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:02:12.201+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:02:12.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:02:12.222+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:02:12.242+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:02:12.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:02:12.273+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:02:12.273+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:02:12.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.108 seconds
+[2026-09-09T16:02:42.469+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:02:42.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:02:42.474+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:02:42.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:02:42.494+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:02:42.566+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:02:42.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:02:42.627+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:02:42.626+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:02:42.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.207 seconds
+[2026-09-09T16:03:12.849+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:03:12.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:03:12.853+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:03:12.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:03:12.873+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:03:12.892+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:03:12.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:03:12.913+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:03:12.913+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:03:12.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.093 seconds
+[2026-09-09T16:03:43.120+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:03:43.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:03:43.125+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:03:43.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:03:43.145+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:03:43.168+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:03:43.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:03:43.190+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:03:43.190+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:03:43.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.101 seconds
+[2026-09-09T16:04:13.403+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:04:13.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:04:13.407+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:04:13.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:04:13.432+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:04:13.466+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:04:13.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:04:13.497+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:04:13.496+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:04:13.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.126 seconds
+[2026-09-09T16:04:43.683+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:04:43.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:04:43.691+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:04:43.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:04:43.710+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:04:43.732+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:04:43.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:04:43.751+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:04:43.750+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:04:43.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.097 seconds
+[2026-09-09T16:05:13.957+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:05:13.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:05:13.960+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:05:13.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:05:13.979+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:05:13.998+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:05:13.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:05:14.029+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:05:14.029+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:05:14.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.098 seconds
+[2026-09-09T16:05:44.251+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:05:44.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:05:44.255+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:05:44.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:05:44.286+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:05:44.312+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:05:44.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:05:44.350+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:05:44.350+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:05:44.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.146 seconds
+[2026-09-09T16:06:14.552+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:06:14.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:06:14.556+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:06:14.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:06:14.575+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:06:14.593+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:06:14.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:06:14.612+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:06:14.612+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:06:14.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.083 seconds
+[2026-09-09T16:06:44.731+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:06:44.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:06:44.734+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:06:44.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:06:44.752+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:06:44.777+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:06:44.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:06:44.798+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:06:44.798+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:06:44.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.091 seconds
+[2026-09-09T16:07:15.018+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:07:15.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:07:15.022+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:07:15.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:07:15.041+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:07:15.067+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:07:15.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:07:15.091+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:07:15.091+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:07:15.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.098 seconds
+[2026-09-09T16:07:45.304+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:07:45.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:07:45.309+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:07:45.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:07:45.331+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:07:45.356+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:07:45.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:07:45.376+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:07:45.376+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:07:45.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.111 seconds
+[2026-09-09T16:08:15.574+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:08:15.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:08:15.579+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:08:15.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:08:15.599+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:08:15.617+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:08:15.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:08:15.636+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:08:15.636+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:08:15.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.093 seconds
+[2026-09-09T16:08:45.926+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:08:45.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:08:45.953+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:08:45.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:08:46.013+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:08:46.097+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:08:46.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:08:46.133+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:08:46.133+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:08:46.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.320 seconds
+[2026-09-09T16:09:16.496+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:09:16.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:09:16.502+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:09:16.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:09:16.541+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:09:16.590+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:09:16.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:09:16.614+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:09:16.614+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:09:16.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.182 seconds
+[2026-09-09T16:09:47.042+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:09:47.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:09:47.112+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:09:47.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:09:47.259+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:09:47.471+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:09:47.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:09:47.498+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:09:47.498+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:09:47.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.624 seconds
+[2026-09-09T16:10:17.785+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:10:17.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:10:17.806+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:10:17.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:10:17.878+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:10:17.986+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:10:17.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:10:18.039+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:10:18.039+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:10:18.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.348 seconds
+[2026-09-09T16:10:48.343+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:10:48.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:10:48.355+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:10:48.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:10:48.392+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:10:48.578+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:10:48.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:10:48.692+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:10:48.692+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:10:48.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.461 seconds
+[2026-09-09T16:11:18.998+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:11:19.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:11:19.003+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:11:19.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:11:19.032+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:11:19.136+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:11:19.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:11:19.192+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:11:19.192+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:11:19.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.279 seconds
+[2026-09-09T16:11:49.427+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:11:49.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:11:49.433+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:11:49.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:11:49.461+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:11:49.485+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:11:49.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:11:49.524+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:11:49.524+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:11:49.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.184 seconds
+[2026-09-09T16:12:19.873+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:12:19.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:12:19.894+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:12:19.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:12:20.003+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:12:20.081+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:12:20.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:12:20.222+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:12:20.221+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:12:20.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.472 seconds
+[2026-09-09T16:12:50.580+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:12:50.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:12:50.599+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:12:50.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:12:50.661+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:12:50.722+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:12:50.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:12:50.778+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:12:50.778+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:12:50.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.282 seconds
+[2026-09-09T16:13:21.167+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:13:21.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:13:21.220+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:13:21.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:13:21.361+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:13:21.496+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:13:21.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:13:21.559+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:13:21.559+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:13:21.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.517 seconds
+[2026-09-09T16:13:51.920+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:13:51.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:13:51.954+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:13:51.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:13:52.061+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:13:52.212+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:13:52.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:13:52.326+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:13:52.325+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:13:52.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.527 seconds
+[2026-09-09T16:14:22.540+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:14:22.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:14:22.547+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:14:22.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:14:22.582+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:14:22.625+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:14:22.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:14:22.662+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:14:22.661+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:14:22.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.163 seconds
+[2026-09-09T16:14:52.863+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:14:52.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:14:52.872+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:14:52.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:14:52.930+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:14:52.999+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:14:52.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:14:53.061+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:14:53.060+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:14:53.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.250 seconds
+[2026-09-09T16:15:23.352+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:15:23.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:15:23.373+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:15:23.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:15:23.435+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:15:23.464+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:15:23.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:15:23.483+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:15:23.483+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:15:23.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.194 seconds
+[2026-09-09T16:15:53.744+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:15:53.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:15:53.772+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:15:53.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:15:53.836+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:15:53.939+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:15:53.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:15:53.996+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:15:53.996+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:15:54.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.356 seconds
+[2026-09-09T16:16:24.195+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:16:24.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:16:24.207+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:16:24.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:16:24.248+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:16:24.333+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:16:24.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:16:24.376+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:16:24.375+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:16:24.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.262 seconds
+[2026-09-09T16:16:54.621+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:16:54.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:16:54.646+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:16:54.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:16:54.693+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:16:54.751+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:16:54.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:16:54.770+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:16:54.770+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:16:54.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.209 seconds
+[2026-09-09T16:17:20.135+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:17:20.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:17:20.147+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:17:20.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:17:20.215+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:17:20.197+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/student_performance_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/student_performance_pipeline.py", line 6, in <module>
+    from src.ingestion.ingest_data import ingest_data
+ModuleNotFoundError: No module named 'src'
+[2026-09-09T16:17:20.217+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:17:20.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.209 seconds
+[2026-09-09T16:17:50.787+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:17:50.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:17:50.797+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:17:50.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:17:50.814+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:17:50.811+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/student_performance_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/student_performance_pipeline.py", line 6, in <module>
+    from src.ingestion.ingest_data import ingest_data
+ModuleNotFoundError: No module named 'src'
+[2026-09-09T16:17:50.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:17:50.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.113 seconds
+[2026-09-09T16:18:21.202+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:18:21.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:18:21.223+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:18:21.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:18:21.283+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:18:21.271+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/student_performance_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/student_performance_pipeline.py", line 6, in <module>
+    from src.ingestion.ingest_data import ingest_data
+ModuleNotFoundError: No module named 'src'
+[2026-09-09T16:18:21.287+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:18:21.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.262 seconds
+[2026-09-09T16:18:51.717+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:18:51.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:18:51.720+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:18:51.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:18:51.741+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:18:51.735+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/student_performance_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/student_performance_pipeline.py", line 6, in <module>
+    from src.ingestion.ingest_data import ingest_data
+ModuleNotFoundError: No module named 'src'
+[2026-09-09T16:18:51.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:18:51.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.104 seconds
+[2026-09-09T16:19:22.313+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:22.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:19:22.321+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:22.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:22.363+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:22.354+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/student_performance_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/student_performance_pipeline.py", line 6, in <module>
+    from src.ingestion.ingest_data import ingest_data
+ModuleNotFoundError: No module named 'src'
+[2026-09-09T16:19:22.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:22.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.176 seconds
+[2026-09-09T16:19:45.566+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:45.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:19:45.581+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:45.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:45.827+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:46.943+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:46.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:19:47.036+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:47.035+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:19:47.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 1.524 seconds
+[2026-09-09T16:19:58.865+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:58.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:19:58.868+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:58.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:58.913+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:19:58.924+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:58.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:19:58.962+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:19:58.962+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:19:59.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.164 seconds
+[2026-09-09T16:20:29.151+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:20:29.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:20:29.158+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:20:29.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:20:29.216+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:20:29.333+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:20:29.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:20:29.390+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:20:29.389+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:20:29.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.298 seconds
+[2026-09-09T16:21:00.395+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:21:00.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:21:00.399+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:21:00.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:21:00.420+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:21:00.443+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:21:00.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:21:00.464+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:21:00.464+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:21:00.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.096 seconds
+[2026-09-09T16:21:30.645+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:21:30.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:21:30.651+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:21:30.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:21:30.675+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:21:30.707+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:21:30.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:21:30.732+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:21:30.732+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:21:30.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.126 seconds
+[2026-09-09T16:22:05.760+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:22:05.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:22:05.768+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:22:05.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:22:05.836+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:22:05.915+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:22:05.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:22:05.977+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:22:05.977+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:22:06.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.280 seconds
+[2026-09-09T16:22:36.675+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:22:36.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:22:36.682+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:22:36.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:22:36.722+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:22:36.765+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:22:36.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:22:36.804+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:22:36.804+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:22:36.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.174 seconds
+[2026-09-09T16:23:07.187+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:23:07.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:23:07.200+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:23:07.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:23:07.228+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:23:07.314+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:23:07.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:23:07.363+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:23:07.362+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:23:07.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.235 seconds
+[2026-09-09T16:23:37.742+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:23:37.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:23:37.752+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:23:37.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:23:37.777+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:23:37.822+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:23:37.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:23:37.868+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:23:37.868+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:23:37.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.175 seconds
+[2026-09-09T16:24:08.199+0000] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:24:08.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:24:08.202+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:24:08.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:24:08.225+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:24:08.247+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:24:08.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:24:08.290+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:24:08.290+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:24:08.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.126 seconds
+[2026-09-09T16:24:38.665+0000] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:24:38.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:24:38.668+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:24:38.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:24:38.690+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:24:38.745+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:24:38.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:24:38.770+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:24:38.770+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:24:38.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.136 seconds
+[2026-09-09T16:25:09.128+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:25:09.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:25:09.132+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:25:09.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:25:09.156+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:25:09.177+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:25:09.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:25:09.200+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:25:09.200+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:25:09.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.098 seconds
+[2026-09-09T16:25:39.595+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:25:39.597+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:25:39.599+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:25:39.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:25:39.627+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:25:39.653+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:25:39.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:25:39.681+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:25:39.681+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:25:39.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.121 seconds
+[2026-09-09T16:26:10.117+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:26:10.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:26:10.122+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:26:10.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:26:10.149+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:26:10.173+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:26:10.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:26:10.198+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:26:10.198+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:26:10.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.152 seconds
+[2026-09-09T16:26:40.557+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:26:40.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:26:40.563+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:26:40.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:26:40.594+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:26:40.624+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:26:40.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:26:40.651+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:26:40.651+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:26:40.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.131 seconds
+[2026-09-09T16:27:45.434+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:27:45.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:27:45.462+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:45.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:27:45.547+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:27:46.111+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.109+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:student_performance_pipeline
+[2026-09-09T16:27:46.135+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.135+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:student_performance_pipeline
+[2026-09-09T16:27:46.150+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.150+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:student_performance_pipeline
+[2026-09-09T16:27:46.175+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.174+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:student_performance_pipeline
+[2026-09-09T16:27:46.187+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.187+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:student_performance_pipeline
+[2026-09-09T16:27:46.201+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.200+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:student_performance_pipeline
+[2026-09-09T16:27:46.215+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.215+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:student_performance_pipeline
+[2026-09-09T16:27:46.217+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:27:46.255+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.255+0000] {dag.py:3262} INFO - Creating ORM DAG for student_performance_pipeline
+[2026-09-09T16:27:46.296+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:27:46.295+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:27:46.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.954 seconds
+[2026-09-09T16:28:16.923+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:16.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:28:17.016+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:17.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:17.301+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:17.724+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:17.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:28:17.845+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:17.845+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:28:17.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 1.198 seconds
+[2026-09-09T16:28:36.769+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:36.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:28:36.782+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:36.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:36.851+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:37.464+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:37.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:28:37.511+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:37.511+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:28:37.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.800 seconds
+[2026-09-09T16:28:51.964+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:51.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:28:52.003+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:51.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:52.184+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:52.237+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:52.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:28:52.264+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:52.263+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:28:52.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.384 seconds
+[2026-09-09T16:28:56.938+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:56.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:28:56.944+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:56.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:56.988+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:28:57.004+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:57.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:28:57.036+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:28:57.036+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:28:57.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.139 seconds
+[2026-09-09T16:29:27.149+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:29:27.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:29:27.155+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:29:27.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:29:27.181+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:29:27.525+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:29:27.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:29:27.575+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:29:27.575+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:29:27.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.473 seconds
+[2026-09-09T16:29:58.443+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:29:58.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:29:58.449+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:29:58.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:29:58.472+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:29:58.627+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:29:58.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:29:58.710+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:29:58.710+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:29:58.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.330 seconds
+[2026-09-09T16:30:29.657+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:30:29.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:30:29.663+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:30:29.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:30:29.688+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:30:29.711+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:30:29.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:30:29.784+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:30:29.783+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:30:29.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.230 seconds
+[2026-09-09T16:31:00.590+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:31:00.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:31:00.598+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:31:00.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:31:00.641+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:31:00.869+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:31:00.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:31:00.929+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:31:00.928+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:31:01.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.429 seconds
+[2026-09-09T16:31:38.579+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:31:38.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:31:38.606+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:31:38.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:31:38.728+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:31:38.862+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:31:38.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:31:38.991+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:31:38.990+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:31:39.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.535 seconds
+[2026-09-09T16:32:21.515+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:32:21.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:32:21.541+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:32:21.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:32:21.653+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:32:21.761+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:32:21.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:32:21.834+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:32:21.833+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:32:21.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.400 seconds
+[2026-09-09T16:32:52.730+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:32:52.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:32:52.765+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:32:52.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:32:52.900+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:32:53.092+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:32:53.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:32:53.205+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:32:53.205+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:32:53.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.620 seconds
+[2026-09-09T16:33:23.954+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:33:23.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:33:23.961+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:33:23.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:33:23.999+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:33:24.059+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:33:24.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:33:24.127+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:33:24.127+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:33:24.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.241 seconds
+[2026-09-09T16:33:55.229+0000] {processor.py:186} INFO - Started process (PID=398) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:33:55.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:33:55.235+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:33:55.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:33:55.262+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:33:55.288+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:33:55.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:33:55.312+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:33:55.312+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:33:55.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.114 seconds
+[2026-09-09T16:34:25.499+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:34:25.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:34:25.504+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:34:25.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:34:25.528+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:34:25.553+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:34:25.553+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:34:25.574+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:34:25.574+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:34:25.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.107 seconds
+[2026-09-09T16:34:55.858+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:34:55.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:34:55.886+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:34:55.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:34:55.946+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:34:56.034+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:34:56.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:34:56.113+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:34:56.112+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:34:56.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.397 seconds
+[2026-09-09T16:35:07.833+0000] {processor.py:186} INFO - Started process (PID=401) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:35:07.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:35:07.902+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:35:07.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:35:07.984+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:35:08.024+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:35:08.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:35:08.098+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:35:08.098+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:35:08.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.488 seconds
+[2026-09-09T16:35:40.054+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:35:40.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:35:40.072+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:35:40.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:35:40.139+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:35:40.230+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:35:40.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:35:40.289+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:35:40.289+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:35:40.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.308 seconds
+[2026-09-09T16:36:10.969+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:36:10.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:36:10.976+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:36:10.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:36:11.005+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:36:11.042+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:36:11.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:36:11.075+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:36:11.074+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:36:11.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.137 seconds
+[2026-09-09T16:36:41.474+0000] {processor.py:186} INFO - Started process (PID=544) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:36:41.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:36:41.490+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:36:41.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:36:41.520+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:36:41.543+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:36:41.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:36:41.568+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:36:41.567+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:36:41.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.148 seconds
+[2026-09-09T16:37:11.953+0000] {processor.py:186} INFO - Started process (PID=545) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:37:11.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:37:11.959+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:37:11.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:37:11.982+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:37:12.005+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:37:12.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:37:12.036+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:37:12.036+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:37:12.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.108 seconds
+[2026-09-09T16:37:47.561+0000] {processor.py:186} INFO - Started process (PID=574) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:37:47.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:37:47.576+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:37:47.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:37:47.629+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:37:47.687+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:37:47.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:37:47.741+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:37:47.740+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:37:47.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.296 seconds
+[2026-09-09T16:38:18.730+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:38:18.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:38:18.734+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:38:18.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:38:18.756+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:38:18.778+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:38:18.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:38:18.799+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:38:18.798+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:38:18.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.096 seconds
+[2026-09-09T16:38:49.853+0000] {processor.py:186} INFO - Started process (PID=688) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:38:49.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:38:49.861+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:38:49.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:38:49.884+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:38:49.905+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:38:49.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:38:49.927+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:38:49.927+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:38:49.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.105 seconds
+[2026-09-09T16:39:21.019+0000] {processor.py:186} INFO - Started process (PID=689) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:39:21.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:39:21.027+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:39:21.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:39:21.050+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:39:21.072+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:39:21.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:39:21.095+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:39:21.094+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:39:21.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.119 seconds
+[2026-09-09T16:39:52.018+0000] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:39:52.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:39:52.023+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:39:52.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:39:52.046+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:39:52.067+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:39:52.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:39:52.120+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:39:52.119+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:39:52.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.146 seconds
+[2026-09-09T16:40:22.275+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:40:22.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:40:22.280+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:40:22.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:40:22.301+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:40:22.320+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:40:22.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:40:22.430+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:40:22.430+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:40:22.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.181 seconds
+[2026-09-09T16:40:52.577+0000] {processor.py:186} INFO - Started process (PID=692) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:40:52.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:40:52.582+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:40:52.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:40:52.606+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:40:52.628+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:40:52.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:40:52.671+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:40:52.671+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:40:52.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.239 seconds
+[2026-09-09T16:41:23.059+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:41:23.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:41:23.077+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:41:23.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:41:23.141+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:41:23.229+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:41:23.228+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:41:23.269+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:41:23.268+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:41:23.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.277 seconds
+[2026-09-09T16:41:53.536+0000] {processor.py:186} INFO - Started process (PID=694) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:41:53.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:41:53.554+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:41:53.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:41:53.689+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:41:53.992+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:41:53.992+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:41:54.064+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:41:54.063+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:41:54.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.620 seconds
+[2026-09-09T16:42:24.372+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:42:24.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:42:24.380+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:42:24.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:42:24.403+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:42:24.441+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:42:24.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:42:24.519+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:42:24.518+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:42:24.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.247 seconds
+[2026-09-09T16:42:56.114+0000] {processor.py:186} INFO - Started process (PID=808) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:42:56.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:42:56.143+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:42:56.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:42:56.243+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:42:56.343+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:42:56.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:42:56.412+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:42:56.411+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:42:56.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.405 seconds
+[2026-09-09T16:43:27.013+0000] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:43:27.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:43:27.043+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:43:27.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:43:27.123+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:43:27.225+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:43:27.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:43:27.292+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:43:27.292+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:43:27.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.381 seconds
+[2026-09-09T16:44:35.461+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:44:35.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:44:35.501+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:35.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:44:35.590+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:44:36.001+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.000+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:student_performance_pipeline
+[2026-09-09T16:44:36.027+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.026+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:student_performance_pipeline
+[2026-09-09T16:44:36.039+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.038+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:student_performance_pipeline
+[2026-09-09T16:44:36.056+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.055+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:student_performance_pipeline
+[2026-09-09T16:44:36.065+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.065+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:student_performance_pipeline
+[2026-09-09T16:44:36.076+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.075+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:student_performance_pipeline
+[2026-09-09T16:44:36.090+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.089+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:student_performance_pipeline
+[2026-09-09T16:44:36.091+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:44:36.119+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.118+0000] {dag.py:3262} INFO - Creating ORM DAG for student_performance_pipeline
+[2026-09-09T16:44:36.148+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:44:36.147+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:44:36.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.804 seconds
+[2026-09-09T16:45:06.712+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:45:06.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:45:06.840+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:45:06.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:45:07.182+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:45:07.485+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:45:07.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:45:07.594+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:45:07.594+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:45:07.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 1.194 seconds
+[2026-09-09T16:45:38.670+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:45:38.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:45:38.676+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:45:38.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:45:38.749+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:45:38.917+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:45:38.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:45:38.992+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:45:38.992+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:45:39.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.433 seconds
+[2026-09-09T16:46:09.961+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:46:09.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:46:09.990+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:46:09.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:46:10.035+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:46:10.067+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:46:10.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:46:10.095+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:46:10.095+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-08 00:00:00+00:00, run_after=2026-09-09 00:00:00+00:00
+[2026-09-09T16:46:10.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.212 seconds
+[2026-09-09T16:46:47.417+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:46:47.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:46:47.450+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:46:47.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:46:47.580+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:46:47.708+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:46:47.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:46:47.836+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:46:47.835+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:46:47.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.526 seconds
+[2026-09-09T16:47:18.248+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:47:18.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:47:18.252+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:47:18.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:47:18.274+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:47:18.315+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:47:18.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:47:18.344+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:47:18.344+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:47:18.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.123 seconds
+[2026-09-09T16:47:49.456+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:47:49.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:47:49.461+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:47:49.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:47:49.481+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:47:49.500+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:47:49.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:47:49.520+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:47:49.520+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:47:49.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.090 seconds
+[2026-09-09T16:48:20.396+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:48:20.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:48:20.399+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:48:20.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:48:20.420+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:48:20.440+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:48:20.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:48:20.459+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:48:20.459+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:48:20.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.087 seconds
+[2026-09-09T16:48:50.644+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:48:50.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:48:50.648+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:48:50.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:48:50.669+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:48:50.690+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:48:50.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:48:50.711+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:48:50.710+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:48:50.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.100 seconds
+[2026-09-09T16:49:21.107+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:49:21.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:49:21.160+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:49:21.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:49:21.309+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:49:21.551+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:49:21.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:49:21.655+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:49:21.654+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:49:21.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.696 seconds
+[2026-09-09T16:49:52.220+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:49:52.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:49:52.226+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:49:52.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:49:52.250+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:49:52.324+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:49:52.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:49:52.368+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:49:52.368+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:49:52.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.182 seconds
+[2026-09-09T16:50:22.718+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:50:22.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:50:22.739+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:50:22.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:50:22.836+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:50:22.945+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:50:22.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:50:23.028+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:50:23.027+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:50:23.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.527 seconds
+[2026-09-09T16:50:54.502+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:50:54.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:50:54.605+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:50:54.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:50:54.857+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:50:55.063+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:50:55.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:50:55.129+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:50:55.128+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:50:55.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.957 seconds
+[2026-09-09T16:51:25.546+0000] {processor.py:186} INFO - Started process (PID=398) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:51:25.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:51:25.552+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:51:25.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:51:25.579+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:51:25.604+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:51:25.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:51:25.627+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:51:25.627+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:51:25.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.112 seconds
+[2026-09-09T16:51:56.010+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:51:56.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:51:56.017+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:51:56.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:51:56.045+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:51:56.072+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:51:56.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:51:56.097+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:51:56.097+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:51:56.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.130 seconds
+[2026-09-09T16:52:26.509+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:52:26.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:52:26.523+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:52:26.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:52:26.574+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:52:26.638+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:52:26.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:52:26.706+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:52:26.706+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:52:26.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.267 seconds
+[2026-09-09T16:52:57.247+0000] {processor.py:186} INFO - Started process (PID=401) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:52:57.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:52:57.253+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:52:57.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:52:57.375+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:52:57.440+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:52:57.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:52:57.462+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:52:57.462+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:52:57.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.279 seconds
+[2026-09-09T16:53:27.955+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:53:27.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:53:27.979+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:53:27.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:53:28.046+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:53:28.128+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:53:28.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:53:28.174+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:53:28.174+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:53:28.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.279 seconds
+[2026-09-09T16:53:58.525+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:53:58.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:53:58.548+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:53:58.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:53:58.669+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:53:58.766+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:53:58.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:53:58.857+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:53:58.857+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:53:58.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.505 seconds
+[2026-09-09T16:54:29.149+0000] {processor.py:186} INFO - Started process (PID=404) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:54:29.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:54:29.154+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:54:29.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:54:29.178+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:54:29.332+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:54:29.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:54:29.409+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:54:29.409+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:54:29.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.328 seconds
+[2026-09-09T16:54:59.797+0000] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:54:59.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:54:59.827+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:54:59.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:54:59.915+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:55:00.024+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:55:00.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:55:00.095+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:55:00.095+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:55:00.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.406 seconds
+[2026-09-09T16:55:30.306+0000] {processor.py:186} INFO - Started process (PID=406) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:55:30.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:55:30.311+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:55:30.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:55:30.336+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:55:30.357+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:55:30.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:55:30.431+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:55:30.430+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:55:30.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.164 seconds
+[2026-09-09T16:56:00.821+0000] {processor.py:186} INFO - Started process (PID=407) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:56:00.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:56:00.859+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:56:00.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:56:00.983+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:56:01.092+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:56:01.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:56:01.173+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:56:01.172+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:56:01.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.480 seconds
+[2026-09-09T16:56:31.462+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:56:31.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:56:31.467+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:56:31.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:56:31.500+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:56:31.530+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:56:31.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:56:31.612+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:56:31.612+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:56:31.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.206 seconds
+[2026-09-09T16:57:01.969+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:57:01.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:57:01.987+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:57:01.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:57:02.024+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:57:02.117+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:57:02.116+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:57:02.173+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:57:02.172+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:57:02.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.316 seconds
+[2026-09-09T16:57:32.449+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:57:32.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:57:32.454+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:57:32.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:57:32.478+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:57:32.511+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:57:32.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:57:32.555+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:57:32.554+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:57:32.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.136 seconds
+[2026-09-09T16:58:02.792+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:58:02.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:58:02.798+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:58:02.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:58:02.822+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:58:02.924+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:58:02.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:58:03.033+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:58:03.033+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:58:03.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.324 seconds
+[2026-09-09T16:58:33.466+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:58:33.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:58:33.512+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:58:33.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:58:33.638+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:58:33.788+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:58:33.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:58:33.866+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:58:33.865+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:58:33.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.547 seconds
+[2026-09-09T16:59:04.223+0000] {processor.py:186} INFO - Started process (PID=413) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:59:04.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:59:04.250+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:59:04.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:59:04.342+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:59:04.463+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:59:04.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:59:04.536+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:59:04.535+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:59:04.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.390 seconds
+[2026-09-09T16:59:34.766+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:59:34.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T16:59:34.770+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:59:34.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:59:34.805+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T16:59:34.836+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:59:34.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T16:59:34.857+0000] {logging_mixin.py:190} INFO - [2026-09-09T16:59:34.856+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T16:59:34.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.128 seconds
+[2026-09-09T17:00:05.082+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:00:05.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:00:05.087+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:00:05.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:00:05.109+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:00:05.134+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:00:05.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:00:05.155+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:00:05.154+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:00:05.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.101 seconds
+[2026-09-09T17:00:35.368+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:00:35.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:00:35.372+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:00:35.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:00:35.396+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:00:35.432+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:00:35.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:00:35.453+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:00:35.453+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:00:35.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.109 seconds
+[2026-09-09T17:01:05.679+0000] {processor.py:186} INFO - Started process (PID=417) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:01:05.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:01:05.695+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:01:05.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:01:05.713+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:01:05.745+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:01:05.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:01:05.769+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:01:05.768+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:01:05.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.128 seconds
+[2026-09-09T17:01:35.944+0000] {processor.py:186} INFO - Started process (PID=418) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:01:35.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:01:35.949+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:01:35.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:01:35.969+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:01:35.995+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:01:35.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:01:36.015+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:01:36.015+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:01:36.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.095 seconds
+[2026-09-09T17:02:06.277+0000] {processor.py:186} INFO - Started process (PID=419) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:02:06.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:02:06.281+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:02:06.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:02:06.301+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:02:06.325+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:02:06.325+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:02:06.347+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:02:06.347+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:02:06.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.105 seconds
+[2026-09-09T17:02:36.553+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:02:36.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:02:36.557+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:02:36.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:02:36.576+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:02:36.602+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:02:36.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:02:36.621+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:02:36.621+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:02:36.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.095 seconds
+[2026-09-09T17:03:06.826+0000] {processor.py:186} INFO - Started process (PID=421) to work on /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:03:06.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/student_performance_pipeline.py for tasks to queue
+[2026-09-09T17:03:06.831+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:03:06.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:03:06.851+0000] {processor.py:925} INFO - DAG(s) 'student_performance_pipeline' retrieved from /opt/airflow/dags/student_performance_pipeline.py
+[2026-09-09T17:03:06.928+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:03:06.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-09T17:03:06.959+0000] {logging_mixin.py:190} INFO - [2026-09-09T17:03:06.958+0000] {dag.py:4180} INFO - Setting next_dagrun for student_performance_pipeline to 2026-09-09 00:00:00+00:00, run_after=2026-09-10 00:00:00+00:00
+[2026-09-09T17:03:07.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/student_performance_pipeline.py took 0.215 seconds

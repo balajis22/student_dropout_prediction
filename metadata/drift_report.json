@@ -1,0 +1,149 @@
+{
+    "timestamp": "2026-10-28T11:25:36.214367",
+    "reference_records": 3500,
+    "current_records": 5000,
+    "monitored_features_count": 16,
+    "drifted_features_count": 0,
+    "drift_share_pct": 0.0,
+    "retraining_recommended": false,
+    "retraining_status": "MODEL_HEALTHY",
+    "drifted_features": [],
+    "numerical_drift": {
+        "Age": {
+            "ks_statistic": 0.0069,
+            "p_value": 1.0,
+            "psi": 0.0005,
+            "drift_detected": false,
+            "ref_mean": 21.02,
+            "cur_mean": 21.05
+        },
+        "Attendance (%)": {
+            "ks_statistic": 0.0096,
+            "p_value": 0.9904,
+            "psi": 0.0008,
+            "drift_detected": false,
+            "ref_mean": 75.16,
+            "cur_mean": 75.36
+        },
+        "Midterm_Score": {
+            "ks_statistic": 0.0068,
+            "p_value": 1.0,
+            "psi": 0.0004,
+            "drift_detected": false,
+            "ref_mean": 70.65,
+            "cur_mean": 70.7
+        },
+        "Assignments_Avg": {
+            "ks_statistic": 0.007,
+            "p_value": 0.9999,
+            "psi": 0.0003,
+            "drift_detected": false,
+            "ref_mean": 75.08,
+            "cur_mean": 74.96
+        },
+        "Quizzes_Avg": {
+            "ks_statistic": 0.0082,
+            "p_value": 0.9989,
+            "psi": 0.0004,
+            "drift_detected": false,
+            "ref_mean": 75.0,
+            "cur_mean": 74.84
+        },
+        "Participation_Score": {
+            "ks_statistic": 0.0067,
+            "p_value": 1.0,
+            "psi": 0.0004,
+            "drift_detected": false,
+            "ref_mean": 49.78,
+            "cur_mean": 49.96
+        },
+        "Projects_Score": {
+            "ks_statistic": 0.0038,
+            "p_value": 1.0,
+            "psi": 0.0004,
+            "drift_detected": false,
+            "ref_mean": 74.77,
+            "cur_mean": 74.78
+        },
+        "Study_Hours_per_Week": {
+            "ks_statistic": 0.0068,
+            "p_value": 1.0,
+            "psi": 0.0005,
+            "drift_detected": false,
+            "ref_mean": 17.49,
+            "cur_mean": 17.52
+        },
+        "Stress_Level (1-10)": {
+            "ks_statistic": 0.0077,
+            "p_value": 0.9997,
+            "psi": 0.0008,
+            "drift_detected": false,
+            "ref_mean": 5.55,
+            "cur_mean": 5.51
+        },
+        "Sleep_Hours_per_Night": {
+            "ks_statistic": 0.0099,
+            "p_value": 0.9857,
+            "psi": 0.0005,
+            "drift_detected": false,
+            "ref_mean": 6.5,
+            "cur_mean": 6.51
+        }
+    },
+    "categorical_drift": {
+        "Gender": {
+            "psi": 0.0,
+            "drift_detected": false,
+            "categories": [
+                "Female",
+                "Male"
+            ]
+        },
+        "Department": {
+            "psi": 0.0004,
+            "drift_detected": false,
+            "categories": [
+                "Business",
+                "CS",
+                "Engineering",
+                "Mathematics"
+            ]
+        },
+        "Extracurricular_Activities": {
+            "psi": 0.0,
+            "drift_detected": false,
+            "categories": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Internet_Access_at_Home": {
+            "psi": 0.0,
+            "drift_detected": false,
+            "categories": [
+                "No",
+                "Yes"
+            ]
+        },
+        "Parent_Education_Level": {
+            "psi": 0.0004,
+            "drift_detected": false,
+            "categories": [
+                "PhD",
+                "High School",
+                "Unknown",
+                "Master's",
+                "Bachelor's"
+            ]
+        },
+        "Family_Income_Level": {
+            "psi": 0.0001,
+            "drift_detected": false,
+            "categories": [
+                "Low",
+                "High",
+                "Medium"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+services:
+
+  airflow:
+    image: apache/airflow:2.10.5
+    container_name: student-airflow
+    restart: unless-stopped
+
+    env_file:
+      - ../.env
+
+    ports:
+      - "8080:8080"
+
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: "SequentialExecutor"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/airflow.db
+      POSTGRES_HOST: "host.docker.internal"
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ../src:/opt/airflow/src
+      - ../data:/opt/airflow/data
+      - ../logs:/opt/airflow/logs
+
+    command: standalone

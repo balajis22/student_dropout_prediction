@@ -1,0 +1,44 @@
+[2026-09-09T16:31:28.909+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-09T16:31:28.919+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: student_performance_pipeline.ingestion scheduled__2026-09-08T00:00:00+00:00 [queued]>
+[2026-09-09T16:31:28.927+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: student_performance_pipeline.ingestion scheduled__2026-09-08T00:00:00+00:00 [queued]>
+[2026-09-09T16:31:28.929+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-09-09T16:31:28.946+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): ingestion> on 2026-09-08 00:00:00+00:00
+[2026-09-09T16:31:28.969+0000] {standard_task_runner.py:72} INFO - Started process 127 to run task
+[2026-09-09T16:31:28.997+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'student_performance_pipeline', 'ingestion', 'scheduled__2026-09-08T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/student_performance_pipeline.py', '--cfg-path', '/tmp/tmpdsfwxiji']
+[2026-09-09T16:31:29.009+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask ingestion
+[2026-09-09T16:31:29.247+0000] {task_command.py:467} INFO - Running <TaskInstance: student_performance_pipeline.ingestion scheduled__2026-09-08T00:00:00+00:00 [running]> on host 87bca16bba31
+[2026-09-09T16:31:29.472+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='student_performance_pipeline' AIRFLOW_CTX_TASK_ID='ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-09-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-08T00:00:00+00:00'
+[2026-09-09T16:31:29.474+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-09T16:31:29.598+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-09-09T16:31:29.601+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/airflow/src/ingestion/ingest_data.py']
+[2026-09-09T16:31:29.645+0000] {subprocess.py:99} INFO - Output:
+[2026-09-09T16:31:32.727+0000] {subprocess.py:106} INFO - Ingestion successful!
+[2026-09-09T16:31:32.728+0000] {subprocess.py:106} INFO - Rows ingested: 5000
+[2026-09-09T16:31:32.902+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-09-09T16:31:32.927+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-09T16:31:32.928+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=student_performance_pipeline, task_id=ingestion, run_id=scheduled__2026-09-08T00:00:00+00:00, execution_date=20260908T000000, start_date=20260909T163128, end_date=20260909T163132
+[2026-09-09T16:31:32.990+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-09T16:31:33.015+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-09T16:31:33.021+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-09T16:46:26.842+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-09T16:46:26.857+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: student_performance_pipeline.ingestion scheduled__2026-09-08T00:00:00+00:00 [queued]>
+[2026-09-09T16:46:26.867+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: student_performance_pipeline.ingestion scheduled__2026-09-08T00:00:00+00:00 [queued]>
+[2026-09-09T16:46:26.868+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-09-09T16:46:26.890+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): ingestion> on 2026-09-08 00:00:00+00:00
+[2026-09-09T16:46:26.910+0000] {standard_task_runner.py:72} INFO - Started process 122 to run task
+[2026-09-09T16:46:26.944+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'student_performance_pipeline', 'ingestion', 'scheduled__2026-09-08T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/student_performance_pipeline.py', '--cfg-path', '/tmp/tmpt5vrvu7p']
+[2026-09-09T16:46:26.954+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask ingestion
+[2026-09-09T16:46:27.218+0000] {task_command.py:467} INFO - Running <TaskInstance: student_performance_pipeline.ingestion scheduled__2026-09-08T00:00:00+00:00 [running]> on host f425b6f38fca
+[2026-09-09T16:46:27.455+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='student_performance_pipeline' AIRFLOW_CTX_TASK_ID='ingestion' AIRFLOW_CTX_EXECUTION_DATE='2026-09-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-08T00:00:00+00:00'
+[2026-09-09T16:46:27.457+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-09T16:46:27.567+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-09-09T16:46:27.574+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/airflow/src/ingestion/ingest_data.py']
+[2026-09-09T16:46:27.616+0000] {subprocess.py:99} INFO - Output:
+[2026-09-09T16:46:30.860+0000] {subprocess.py:106} INFO - Ingestion successful!
+[2026-09-09T16:46:30.863+0000] {subprocess.py:106} INFO - Rows ingested: 5000
+[2026-09-09T16:46:31.197+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-09-09T16:46:31.243+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-09T16:46:31.245+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=student_performance_pipeline, task_id=ingestion, run_id=scheduled__2026-09-08T00:00:00+00:00, execution_date=20260908T000000, start_date=20260909T164626, end_date=20260909T164631
+[2026-09-09T16:46:31.324+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-09T16:46:31.378+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-09T16:46:31.386+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

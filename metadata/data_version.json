@@ -1,0 +1,46 @@
+{
+    "version": "v1.0.0",
+    "timestamp": "2026-10-28T11:24:59.136752",
+    "dataset_path": "data/cleaned/students_cleaned.csv",
+    "sha256_hash": "7da8bddaa82bf5e7ad8e5ecaab9393a632206960a9c9e6836ac55474d59c1335",
+    "git_commit": "git-not-available",
+    "git_branch": "unknown",
+    "num_records": 5000,
+    "num_columns": 21,
+    "columns": [
+        "Student_ID",
+        "Gender",
+        "Age",
+        "Department",
+        "Attendance (%)",
+        "Midterm_Score",
+        "Final_Score",
+        "Assignments_Avg",
+        "Quizzes_Avg",
+        "Participation_Score",
+        "Projects_Score",
+        "Total_Score",
+        "Grade",
+        "Study_Hours_per_Week",
+        "Extracurricular_Activities",
+        "Internet_Access_at_Home",
+        "Parent_Education_Level",
+        "Family_Income_Level",
+        "Stress_Level (1-10)",
+        "Sleep_Hours_per_Night",
+        "Average_Assessment_Score"
+    ],
+    "grade_distribution": {
+        "C": 2307,
+        "D": 1760,
+        "B": 638,
+        "F": 279,
+        "A": 16
+    },
+    "final_score_summary": {
+        "mean": 69.546552,
+        "min": 40.01,
+        "max": 99.98,
+        "std": 17.108995616853125
+    }
+}

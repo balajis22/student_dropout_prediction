@@ -1,0 +1,23 @@
+artifact_path: file:E:/CMRIT/Mini Project/MlOps/student-performance-analysis/mlruns/1/models/m-b45500c6ab88429b939ea33d83921f05/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-b45500c6ab88429b939ea33d83921f05
+model_size_bytes: 1761553
+model_uuid: m-b45500c6ab88429b939ea33d83921f05
+prompts: null
+run_id: cfa1f501cfbc40148a02d07a3711673c
+utc_time_created: '2026-10-28 05:28:51.754488'

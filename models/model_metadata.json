@@ -1,0 +1,94 @@
+{
+    "model_name": "Random_Forest",
+    "model_version": "v1.0.0",
+    "registered_stage": "Production",
+    "val_metrics": {
+        "accuracy": 0.9213333333333333,
+        "precision": 0.3950617283950617,
+        "recall": 0.7619047619047619,
+        "f1_score": 0.5203252032520326,
+        "roc_auc": 0.9451842884046273,
+        "pr_auc": 0.47338236465383754,
+        "log_loss": 0.2097969003854317
+    },
+    "test_metrics": {
+        "accuracy": 0.9146666666666666,
+        "precision": 0.358974358974359,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.4666666666666667,
+        "roc_auc": 0.9403080441216035,
+        "pr_auc": 0.45241517672160936,
+        "log_loss": 0.2049704479925528
+    },
+    "classification_report": {
+        "Pass (0)": {
+            "precision": 0.9791666666666666,
+            "recall": 0.9293785310734464,
+            "f1-score": 0.9536231884057971,
+            "support": 708.0
+        },
+        "Fail Risk (1)": {
+            "precision": 0.358974358974359,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.4666666666666667,
+            "support": 42.0
+        },
+        "accuracy": 0.9146666666666666,
+        "macro avg": {
+            "precision": 0.6690705128205128,
+            "recall": 0.7980225988700564,
+            "f1-score": 0.7101449275362319,
+            "support": 750.0
+        },
+        "weighted avg": {
+            "precision": 0.9444358974358975,
+            "recall": 0.9146666666666666,
+            "f1-score": 0.9263536231884058,
+            "support": 750.0
+        }
+    },
+    "parameters": {
+        "model_type": "RandomForestClassifier",
+        "n_estimators": 150,
+        "max_depth": 8,
+        "min_samples_split": 5,
+        "class_weight": "balanced"
+    },
+    "feature_columns": [
+        "Gender",
+        "Age",
+        "Department",
+        "Attendance (%)",
+        "Midterm_Score",
+        "Assignments_Avg",
+        "Quizzes_Avg",
+        "Participation_Score",
+        "Projects_Score",
+        "Study_Hours_per_Week",
+        "Extracurricular_Activities",
+        "Internet_Access_at_Home",
+        "Parent_Education_Level",
+        "Family_Income_Level",
+        "Stress_Level (1-10)",
+        "Sleep_Hours_per_Night",
+        "Study_Sleep_Ratio",
+        "Academic_Engagement",
+        "Continuous_Assessment_Avg",
+        "Exam_to_Coursework_Ratio",
+        "Stress_Sleep_Index"
+    ],
+    "target_name": "failure_risk",
+    "classes": [
+        0,
+        1
+    ],
+    "class_labels": [
+        "Pass / Safe",
+        "Fail Risk"
+    ],
+    "risk_thresholds": {
+        "low_risk": "< 0.20",
+        "moderate_risk": "0.20 - 0.50",
+        "high_risk": ">= 0.50"
+    }
+}
